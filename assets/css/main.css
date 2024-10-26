@@ -1,0 +1,58 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+  }
+  
+  body, html {
+	height: 100%;
+	font-family: Futura, sans-serif;
+	color: #ffffff;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: relative; 
+  }
+  
+  body.daytime {
+	background-color: #1bb7eb; /* Light blue for daytime */
+  }
+  
+  body.nighttime {
+	background-color: #13253d; /* Dark blue for nighttime */
+  }
+  
+  .container {
+	text-align: center;
+  }
+  
+  h1 {
+	font-size: 3em;
+	font-weight: bold;
+	color: #ffffff;
+  }
+  
+  .answer {
+	font-size: 2em;
+	margin-top: 20px;
+	color: #ffffff;
+  }
+  
+  .info {
+	font-size: 1.2em;
+	margin-top: 10px;
+	color: rgba(255, 255, 255, 0.7); /* Faded white text */
+  }
+  
+  /* Moon GIF styles */
+  .moon-gif {
+	position: fixed; 
+	top: 10px; 
+	right: 10px; 
+	width: 15%; 
+	height: auto; 
+	max-width: 500px; 
+	max-height: 500px; 
+	pointer-events: none; /
+  }
+  
