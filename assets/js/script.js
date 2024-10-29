@@ -21,7 +21,7 @@ document.addEventListener("DOMContentLoaded", async () => {
   
         // Get details
         const localTime = data.location.localtime; // Format: "YYYY-MM-DD HH:MM"
-        const temperature = data.current.temp_c + 6; 
+        const temperature = data.current.temp_c; 
         const condition = data.current.condition.text; 
   
         // Determine Answer
